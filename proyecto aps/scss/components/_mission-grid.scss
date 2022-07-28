@@ -1,0 +1,14 @@
+.mission-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 80px 0; 
+    .textos-mission {
+        grid-column: 7/13;
+        grid-row: 1/-1;
+        margin-bottom: 20px;
+        .texto-mission {
+            padding: 30px; }
+    }
+    .img-mission {
+        grid-column: 1/7; }
+}

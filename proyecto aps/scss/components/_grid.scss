@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+    .textos-hero {
+        grid-column: 1/7;
+        padding-right: 20px;
+        .weight-400 {
+            font-weight: 400; }
+            .parrafo {
+                margin-bottom: 20px; } 
+    
+    }
+    .img-hero {
+        width: 100%;
+        height: auto;
+        grid-column: 7/13; }
+
+}
+
+
+
